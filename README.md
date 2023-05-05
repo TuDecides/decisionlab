@@ -20,7 +20,7 @@
 To get started with `decision_lab`, you need to provide the UUID for accessing decisions. The UUID can be set as an environment variable `DECISION_LAB_UUID` or passed as an argument when creating an instance of the `DecisionLab` class.
 
 ```python
-from decision_lab import DecisionLab
+from decisionlab import DecisionLab
 
 # Create an instance of DecisionLab with UUID
 decision_lab = DecisionLab(uuid='your-uuid')
